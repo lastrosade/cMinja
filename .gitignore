@@ -1,3 +1,6 @@
+# Build directory
+build/
+
 # Prerequisites
 *.d
 
@@ -30,3 +33,24 @@
 *.exe
 *.out
 *.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# IDE specific files
+.vscode/
+.vs/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
